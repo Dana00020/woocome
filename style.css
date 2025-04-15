@@ -1,0 +1,391 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #272D4E;
+    background-color: #F6F8FB;
+  }
+  
+  /* Background images */
+  .back img {
+    position: absolute;
+    z-index: -1;
+    background-color: #FFFFFF;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  
+  .Wright img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    width: auto;
+    height: 1000px;
+  }
+  
+  /* Header styles */
+  .header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    z-index: 1;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .header .logo img {
+    position: absolute;
+    width: 169px;
+    z-index: 10;
+    left: 55px;
+    padding-top: 15px;
+  }
+  
+  .header .nav ul {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    left: 368px;
+  }
+  
+  .header .nav ul li a {
+    text-decoration: none;
+    color: #272D4E;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .header .buttons {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    right: 45px;
+  }
+  
+  .header .log button,
+  .header .get button {
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .header .get button {
+    color: #FFFFFF;
+    background-color: #7854F7;
+    border-radius: 5%;
+  }
+  
+  .header .search img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-top: 70%;
+  }
+  
+  /* Section 1 */
+  .section-1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .text-content {
+    position: absolute;
+    max-width: 40%;
+    top: 100px;
+    left: 220px;
+  }
+  
+  .text-content h1 {
+    font-size: 85px;
+    font-weight: 700;
+  }
+  
+  .text-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #94A2B3;
+  }
+  
+  .sec1-buttons {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+  }
+  
+  #start {
+    padding: 15px 30px;
+    font-size: 18px;
+    align-items: center;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    background-color: #7854F7;
+    height: 72px;
+    width: 267px;
+  }
+  
+  #custom {
+    display: flex;
+    border: none;
+    background: none;
+    font-size: 18px;
+    align-items: center;
+    color: #94A2B3;
+    gap: 3px;
+  }
+  
+  .sec1-buttons b {
+    color: #299EF3;
+  }
+  
+  .sec1-image img {
+    position: absolute;
+    height: 829px;
+    right: -5px;
+    top: 100px;
+  }
+  
+  /* Section 2 */
+  .section-2 {
+    position: relative;
+    top: 900px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section-2 h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 55px;
+    max-width: 25%;
+  }
+  
+  .section-2 > div {
+    position: absolute;
+    top: 100px;
+    padding: 0px 114px;
+  }
+  
+  .top-box,
+  .centre-box,
+  .bottom-box {
+    display: inline-block;
+    width: 33%;
+    position: relative;
+  }
+  
+  .top-box,
+  .centre-box,
+  .bottom-box {
+    text-align: left;
+    padding-left: 106px;
+  }
+  
+  .title {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #272D4E;
+  }
+  
+  .description {
+    max-width: 430px;
+    font-size: 18px;
+    color: #94A2B3;
+  }
+  
+  .blue {
+    display: flex;
+    font-size: 18px;
+    color: #299EF3;
+  }
+  
+  /* Section 3 */
+  .section-3 {
+    position: relative;
+    justify-content: space-between;
+    top: 2004px;
+  }
+  
+  .sec3-back img {
+    width: 100.9%;
+    left: -10px;
+    position: absolute;
+    top: 100px;
+    z-index: -1;
+  }
+  
+  .sec3-top img {
+    top: 50px;
+    position: absolute;
+    width: 520px;
+    left: 250px;
+  }
+  
+  .sec3-text {
+    max-width: 480px;
+    text-align: left;
+    position: absolute;
+  }
+  
+  .sec3-text h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+  
+  .sec3-text p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .green {
+    border-radius: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color: #70C217;
+    width: 256px;
+    height: 44px;
+    position: relative;
+    padding-top: 20px;
+  }
+  
+  /* Mobile responsive styles */
+  @media screen and (max-width: 768px) {
+    .header {
+      padding: 15px 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header .logo img {
+      position: static;
+      width: 150px;
+    }
+  
+    .header .nav ul {
+      position: static;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .header .nav ul li a {
+      font-size: 16px;
+    }
+  
+    .header .buttons {
+      position: static;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .sec1-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #start {
+      width: 100%;
+    }
+  
+    .section-1 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .text-content {
+      max-width: 100%;
+      text-align: center;
+      left: 0;
+    }
+  
+    .sec1-image img {
+      position: static;
+      height: auto;
+      width: 100%;
+    }
+  
+    /* Section 2 */
+    .section-2 h1 {
+      font-size: 40px;
+    }
+  
+    .section-2 > div {
+      padding: 0 20px;
+    }
+  
+    .top-box,
+    .centre-box,
+    .bottom-box {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+    }
+  
+    .title {
+      font-size: 28px;
+    }
+  
+    .description {
+      font-size: 16px;
+    }
+  
+    .blue {
+      font-size: 16px;
+    }
+  
+    /* Section 3 */
+    .sec3-text {
+      max-width: 100%;
+      text-align: center;
+      position: static;
+      left: 0;
+      margin-bottom: 20px;
+    }
+  
+    .sec3-back img {
+      width: 100%;
+    }
+  
+    .sec3-top img {
+      width: 100%;
+      position: static;
+      margin-bottom: 20px;
+    }
+  
+    .sec3-bottom img {
+      width: 100%;
+      position: static;
+      margin-bottom: 20px;
+    }
+  }
+  
